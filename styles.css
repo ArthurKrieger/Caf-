@@ -46,7 +46,6 @@ object-fit: cover;
 
 font-family: 'Inconsolata', monospace;
 width: 25vw;
-
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -57,7 +56,10 @@ text-align: left;
 }
 #about-the-cafe
 {
-padding:36px;
+text-align:center;
+padding: 36px;
+font-weight: 300;
+size: 20px;
 }
 
 
@@ -71,6 +73,34 @@ padding:36px;
 #coffe-shop
 {
     display: flex;
+    
+    width: 25vw;
+
+}
+
+#location
+{
+    font-family: 'Inconsolata', monospace;
+    width: 25vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
+
+}
+
+#where-to-find-us
+{
+    text-align:center;
+    padding: 36px;
+    font-weight: 300;
+    size: 20px;
+
+}
+#map
+{
+    display: flex;
+    margin-top: 7px;
     
     width: 25vw;
 

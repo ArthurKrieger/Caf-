@@ -25,56 +25,42 @@
     justify-content: center;
 }
 
-#coffe-house-1 {
+#banner {
     display: flex;
     height: 559px;
     width: 100vw;
     object-fit: cover;
 }
 
-#about {
+.section-container {
     font-family: 'Inconsolata', monospace;
     width: 25vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-#about-the-cafe {
+.section-container h2 {
     text-align: center;
     padding: 36px;
     font-weight: 300;
     size: 20px;
 }
 
-#paragraph-1 {
+.section-container p {
+    line-height: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-container img {
+    display: flex;
+    width: 100%;
+}
+
+.featured-quote {
     font-family: 'Roboto Condensed', sans-serif;
-}
-
-#coffe-shop {
-    display: flex;
-    width: 25vw;
-}
-
-#location {
-    font-family: 'Inconsolata', monospace;
-    width: 25vw;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-
-#where-to-find-us {
-    text-align: center;
-    padding: 36px;
-    font-weight: 300;
-    size: 20px;
-}
-
-#map {
-    display: flex;
-    margin-top: 7px;
-    width: 25vw;
 }

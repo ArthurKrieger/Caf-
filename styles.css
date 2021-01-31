@@ -5,6 +5,7 @@
 }
 
 #navbar {
+    height: 40px;
     display: flex;
     background-color: white;
     justify-content: center;
@@ -27,8 +28,8 @@
 
 #banner {
     display: flex;
-    height: 559px;
-    width: 100vw;
+    height: calc(100vh - 40px);
+    width: 100%;
     object-fit: cover;
 }
 
@@ -37,6 +38,7 @@
     min-width: 320px;
     max-width: 700px;
     margin: 40px auto;
+    padding: 0 10px;
     font-family: 'Inconsolata', monospace;
     text-align: left;
 }

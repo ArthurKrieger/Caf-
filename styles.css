@@ -1,0 +1,44 @@
+*
+{
+box-sizing:border-box;
+margin: 0;
+padding: 0;
+
+}
+
+#navbar
+{
+display: flex;
+background-color:white;
+justify-content: center;
+font-family: 'Inconsolata', monospace;
+padding: 10px;
+
+}
+
+#navbar ul
+{
+display: flex;
+width: 100vw;
+list-style: none;
+justify-content: space-evenly;
+
+
+}
+
+#navbar ul li
+{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.coffe-house-1
+{
+display: flex;
+height:559px;
+
+width: 100vw;
+object-fit: cover;
+}
+

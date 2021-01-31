@@ -52,11 +52,39 @@
     line-height: 1.5rem;
     margin-top: 15px;
     margin-bottom: 15px;
+    size: 18px;
 }
 
 .section-container img {
     display: flex;
     width: 100%;
+}
+
+#menu .items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#menu .menu-item {
+    min-height: 60px;
+    height: fit-content;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+#menu .menu-item:first-child {
+    margin-top: 0;
+}
+
+#menu .menu-item h3 {
+    font-weight: normal;
+    font-size: 18px;
 }
 
 .featured-quote {

@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Inconsolata', monospace;
     filter: grayscale(25%);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -22,21 +23,14 @@ body {
     display: flex;
     background-color: black;
     color: white;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 10px;
 }
 
-#navbar ul {
-    display: flex;
-    width: 100vw;
-    list-style: none;
-    justify-content: space-evenly;
-}
-
-#navbar ul li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#navbar .navbaritem {
+    color: white;
+    background-color: none;
+    text-decoration: none;
 }
 
 #banner {

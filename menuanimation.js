@@ -4,7 +4,7 @@ function show_drink() {
     document.getElementById("botao_drinks").className = "tab active"
     document.getElementById("botao_eat").className = "tab "
 
-    console.log("foi drink");
+
 
 }
 
@@ -13,7 +13,7 @@ function show_eat() {
     document.getElementById("drinks").style.display = "none";
     document.getElementById("botao_drinks").className = "tab "
     document.getElementById("botao_eat").className = "tab active"
-    console.log("foi eat");
+
 
 
 }

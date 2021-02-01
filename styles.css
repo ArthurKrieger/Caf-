@@ -6,6 +6,10 @@
     filter: grayscale(25%);
 }
 
+body {
+    min-width: fit-content;
+}
+
 mark.black {
     background-color: black;
     color: white;
@@ -25,17 +29,6 @@ mark.black {
 
 :is(img) {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25vw;
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-#coffehouse2 {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
     width: 25vw;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -51,7 +44,7 @@ mark.black {
 
 #navbar ul {
     display: flex;
-    width: 100vw;
+    width: 100%;
     list-style: none;
     justify-content: space-evenly;
 }
@@ -65,7 +58,7 @@ mark.black {
 #cover {
     display: flex;
     height: 559px;
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
     margin: 0px;
 }
@@ -159,9 +152,15 @@ mark.black {
     border: none;
     background-color: rgba(196, 196, 196, 0.2);
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
     width: 25vw;
-    margin-left: 37vw;
+    left: 0px;
 }
 
 #enviar {
@@ -170,6 +169,5 @@ mark.black {
     width: 100px;
     height: 35px;
     color: white;
-    margin-left: 37vw;
     margin-bottom: 50px;
 }

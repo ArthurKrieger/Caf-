@@ -3,7 +3,39 @@
 box-sizing:border-box;
 margin: 0;
 padding: 0;
+font-family: 'Inconsolata', monospace;
+filter: grayscale(25%);
 
+}
+
+mark.black
+{
+    background-color: black;
+    color: white;
+}
+
+:is(h1)
+{
+       font-weight: 300;  
+    width: fit-content;
+    padding:5px;    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;      
+    background-color: black;
+    color: white;
+   
+}
+:is(img)
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 25vw;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
 }
 
 #navbar
@@ -11,7 +43,7 @@ padding: 0;
 display: flex;
 background-color:white;
 justify-content: center;
-font-family: 'Inconsolata', monospace;
+
 padding: 10px;
 
 }
@@ -33,12 +65,13 @@ align-items: center;
 justify-content: center;
 
 }
-#coffe-house-1
+#cover
 {
 display: flex;
 height:559px;
 width: 100vw;
 object-fit: cover;
+
 }
 
 #about
@@ -56,8 +89,8 @@ text-align: left;
 }
 #about-the-cafe
 {
-text-align:center;
-padding: 36px;
+text-align:left;
+
 font-weight: 300;
 size: 20px;
 }
@@ -72,8 +105,7 @@ size: 20px;
 
 #coffe-shop
 {
-    display: flex;
-    
+    display: flex;    
     width: 25vw;
 
 }
@@ -89,19 +121,29 @@ size: 20px;
 
 }
 
-#where-to-find-us
+
+
+
+.contact-button
 {
-    text-align:center;
-    padding: 36px;
-    font-weight: 300;
-    size: 20px;
+
+border: none;
+background-color: rgba(196, 196, 196, 0.2);
+margin-bottom: 10px;
+padding: 20px;
+width: 25vw;
+margin-left: 37vw;
 
 }
-#map
-{
-    display: flex;
-    margin-top: 7px;
-    
-    width: 25vw;
 
+#enviar
+{
+background-color: black;
+border: none;
+width: 100px;
+height: 35px;
+color: white;
+margin-left: 37vw;
+
+margin-bottom: 50px;
 }

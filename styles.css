@@ -15,7 +15,7 @@ mark.black {
     color: white;
 }
 
-:is(h1) {
+:is(h2) {
     font-weight: 300;
     width: fit-content;
     padding: 5px;

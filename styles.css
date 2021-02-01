@@ -141,10 +141,8 @@ mark.black {
     color: white;
 }
 
-.hide {
+#drinks {
     display: none;
-    opacity: 0;
-    height: 0px;
 }
 
 .contact-button {

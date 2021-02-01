@@ -6,10 +6,20 @@
     filter: grayscale(25%);
 }
 
+body {
+    min-width: fit-content;
+}
+
+mark.black {
+    background-color: black;
+    color: white;
+}
+
 #navbar {
     height: 40px;
     display: flex;
-    background-color: white;
+    background-color: black;
+    color: white;
     justify-content: center;
     padding: 10px;
 }
@@ -32,6 +42,7 @@
     height: calc(100vh - 40px);
     width: 100%;
     object-fit: cover;
+    margin: 0px;
 }
 
 .section-container {

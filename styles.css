@@ -1,149 +1,175 @@
-*
-{
-box-sizing:border-box;
-margin: 0;
-padding: 0;
-font-family: 'Inconsolata', monospace;
-filter: grayscale(25%);
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    filter: grayscale(25%);
 }
 
-mark.black
-{
+mark.black {
     background-color: black;
-    color:white;
+    color: white;
 }
 
-:is(h1)
-{
-       font-weight: 300;  
+:is(h1) {
+    font-weight: 300;
     width: fit-content;
-    padding:5px;    
+    padding: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
-    margin-right: auto;      
+    margin-right: auto;
     background-color: black;
     color: white;
-   
 }
-:is(img)
-{
-    display: block;
+
+:is(img) {
+    position: relative;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
     width: 25vw;
     margin-top: 7px;
     margin-bottom: 7px;
-    
 }
 
-#navbar
-{
-display: flex;
-background-color:white;
-justify-content: center;
-
-padding: 10px;
-
-}
-
-#navbar ul
-{
-display: flex;
-width: 100vw;
-list-style: none;
-justify-content: space-evenly;
-
-
-}
-
-#navbar ul li
-{
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-#cover
-{
-display: flex;
-height:559px;
-width: 100vw;
-object-fit: cover;
-
-}
-
-#about
-{
-
-font-family: 'Inconsolata', monospace;
-width: 25vw;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-text-align: left; 
-
-
-
-}
-#about-the-cafe
-{
-text-align:left;
-
-font-weight: 300;
-size: 20px;
-}
-
-
-#paragraph-1
-{
-    
-    font-family: 'Roboto Condensed', sans-serif;  
-      
-}
-
-#coffe-shop
-{
-    display: flex;    
+#coffehouse2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     width: 25vw;
-
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
-#location
-{
+#navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+}
+
+#navbar ul {
+    display: flex;
+    width: 100vw;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#navbar ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cover {
+    display: flex;
+    height: 559px;
+    width: 100vw;
+    object-fit: cover;
+    margin: 0px;
+}
+
+#about {
     font-family: 'Inconsolata', monospace;
     width: 25vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    text-align: left; 
-
+    text-align: left;
 }
 
-
-
-
-.contact-button
-{
-
-border: none;
-background-color: rgba(196, 196, 196, 0.2);
-margin-bottom: 10px;
-padding: 20px;
-width: 25vw;
-margin-left: 37vw;
-
+#about-the-cafe {
+    text-align: left;
+    font-weight: 300;
+    size: 20px;
 }
 
-#enviar
-{
-background-color: black;
-border: none;
-width: 100px;
-height: 35px;
-color: white;
-margin-left: 37vw;
+#paragraph-1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
-margin-bottom: 50px;
+.section-container {
+    width: 25vw;
+    min-width: 320px;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font-family: 'Inconsolata', monospace;
+    text-align: left;
+}
+
+.section-container h2 {
+    text-align: center;
+    margin: 36px 0;
+    font-weight: 300;
+    size: 20px;
+}
+
+.section-container p {
+    line-height: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    size: 18px;
+}
+
+.section-container img {
+    display: flex;
+    width: 100%;
+}
+
+#menu .items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#menu .menu-item {
+    min-height: 60px;
+    height: fit-content;
+    margin: 20px 0;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+#menu .menu-item:first-child {
+    margin-top: 0;
+}
+
+#menu .menu-item h3 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#location {
+    font-family: 'Inconsolata', monospace;
+    width: 25vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.contact-button {
+    border: none;
+    background-color: rgba(196, 196, 196, 0.2);
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 25vw;
+    margin-left: 37vw;
+}
+
+#enviar {
+    background-color: black;
+    border: none;
+    width: 100px;
+    height: 35px;
+    color: white;
+    margin-left: 37vw;
+    margin-bottom: 50px;
 }

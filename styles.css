@@ -118,6 +118,10 @@
 
 .featured-quote {
     font-family: 'Roboto Condensed', sans-serif;
+    border-left: 5px solid #CCCCCC;
+    background-color: #F1F1F1;
+    padding: 10px 15px;
+    margin: 20px 0;
 }
 
 mark.black {

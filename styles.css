@@ -11,7 +11,7 @@ filter: grayscale(25%);
 mark.black
 {
     background-color: black;
-    color: white;
+    color:white;
 }
 
 :is(h1)

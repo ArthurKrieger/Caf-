@@ -23,13 +23,17 @@ body {
     display: flex;
     background-color: black;
     color: white;
-    justify-content: space-evenly;
-    padding: 10px;
+    justify-content: center;
 }
 
 #navbar .navbaritem {
+    height: 100%;
+    min-width: 76px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    background-color: none;
     text-decoration: none;
 }
 

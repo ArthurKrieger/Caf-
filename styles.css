@@ -3,12 +3,23 @@
     margin: 0;
     padding: 0;
     font-family: 'Inconsolata', monospace;
-    filter: grayscale(25%);
+    filter: grayscale(20%);
     scroll-behavior: smooth;
 }
 
 body {
     min-width: fit-content;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 10vw;
+    left: 45%;
+    font-size: 5vmax;
+    text-align: center;
+    line-height: 7vmax;
+    font-weight: 400;
 }
 
 .main-content {
@@ -35,7 +46,7 @@ body {
 
 #banner {
     display: flex;
-    height: calc(100vh - 40px);
+    height: 30vw;
     width: 100%;
     object-fit: cover;
     margin: 0px;

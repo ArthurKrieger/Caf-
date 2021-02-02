@@ -1,19 +1,21 @@
+var eat = document.getElementById("eat");
+var drinks = document.getElementById("drinks");
+var tabDrinks = document.getElementById("botao_drinks");
+var tabEat = document.getElementById("botao_eat");
+
+drinks.classList.add("hide");
+tabEat.classList.add("active");
+
 function show_drink() {
-    document.getElementById("eat").style.display = "none";
-    document.getElementById("drinks").style.display = "block";
-    document.getElementById("botao_drinks").className = "tab active"
-    document.getElementById("botao_eat").className = "tab "
-
-
-
+    eat.classList.add("hide");
+    drinks.classList.remove("hide");
+    tabDrinks.classList.add("active");
+    tabEat.classList.remove("active");
 }
 
 function show_eat() {
-    document.getElementById("eat").style.display = "block";
-    document.getElementById("drinks").style.display = "none";
-    document.getElementById("botao_drinks").className = "tab "
-    document.getElementById("botao_eat").className = "tab active"
-
-
-
+    eat.classList.remove("hide");
+    drinks.classList.add("hide");
+    tabDrinks.classList.remove("active");
+    tabEat.classList.add("active");
 }

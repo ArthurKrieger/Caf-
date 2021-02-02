@@ -122,6 +122,12 @@ body {
     color: #FFFFFF;
 }
 
+#menu .hide {
+    display: none;
+    opacity: 0;
+    height: 0px;
+}
+
 #menu .items {
     width: 100%;
     display: flex;
@@ -162,11 +168,7 @@ body {
     padding: 0 8px;
 }
 
-#drinks {
-    display: none;
-}
-
-.contact-button {
+.contact-input {
     border: none;
     background-color: #FFFFFF;
     border: 1px solid #D3D3D3;
@@ -175,8 +177,8 @@ body {
     width: 100%;
 }
 
-#enviar {
-    background-color: black;
+.black-button {
+    background-color: #000;
     border: none;
     width: 100px;
     height: 35px;

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Café</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
@@ -44,7 +43,7 @@
         <section id="menu" class="section-container">
             <h2>THE MENU</h2>
             <div class="tabs">
-                <button id="botao_eat" onclick="show_eat()" class="tab active">Eat</button>
+                <button id="botao_eat" onclick="show_eat()" class="tab">Eat</button>
                 <button id="botao_drinks" onclick="show_drink()" class="tab">Drink</button>
             </div>
             <div class="items">
@@ -106,14 +105,16 @@
 
         <section id="contact" class="section-container">
             <p><b>Reserve </b>a table, ask for today’s special or just send us a message:</p>
-            <input class="contact-button" type="text" placeholder="Name">
-            <input class="contact-button" type="number" placeholder="How Many People">
-            <input class="contact-button" type="datetime-local" placeholder="16/11/2019 20:00">
-            <input class="contact-button" type="text" placeholder="Message \ Special requirements">
-            <button id="enviar" type="button">SEND MESSAGE</button>
+            <input class="contact-input" type="text" placeholder="Name">
+            <input class="contact-input" type="number" placeholder="How Many People">
+            <input class="contact-input" type="datetime-local" placeholder="16/11/2019 20:00">
+            <input class="contact-input" type="text" placeholder="Message \ Special requirements">
+            <button class="black-button" type="button">SEND MESSAGE</button>
         </section>
 
     </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -184,4 +184,9 @@ body {
     height: 35px;
     color: white;
     margin-bottom: 50px;
+    transition: background-color 0.5s;
+}
+
+.black-button:hover {
+    background-color: rgba(0, 0, 0, 0.85);
 }
